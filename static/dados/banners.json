@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1, 
+        "categorie": "Cruzeiro", 
+        "img": "top-grandiosa-wide.webp", 
+        "title": "<span>MSC</span> PREZIOSA", 
+        "desc": "Uma experiência magnífica a bordo",
+        "noites": 7,
+        "itens_inclusos": [
+            {"name": "Água", "icon": "coffe.svg"},
+            {"name": "Café", "icon": "coffe.svg"},
+            {"name": "Sucos", "icon": "coffe.svg"},
+            {"name": "Chá", "icon": "coffe.svg"},
+            {"name": "Refeições", "icon": "coffe.svg"}
+        ],
+        "pacotes_bebidas": [
+            {"pacote": "Light", "forma_price": 1, "price": "200", "desc": "Refrigerantes, Sucos e bebidas softs de até $7,00"}
+        ],
+        "price": "1599,00",
+        "n_parcelas": "12",
+        "v_parcelas": "154,90",
+        "url": "cruzeiros/msc-preziosa"        
+    },
+    {
+        "id": 2, 
+        "categorie": "Cruzeiro", 
+        "img": "msc-grandiosa.jpg", 
+        "title": "<span>MSC</span> GRANDIOSA", 
+        "desc": "Todas as refeições inclusas",
+        "noites": 4,
+        "price": "1599,00",
+        "n_parcelas": "12",
+        "v_parcelas": "154,90",
+        "url": "154,90"        
+    }
+]

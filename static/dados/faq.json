@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ac1", 
+        "pergunta": "Quais os Motivos para fazer o treinamento?", 
+        "resposta": "Iremos lhe apresentar as marcas, informações técnicas, toda nossa gama de produtos, além de argumentos de marketing, processo eficaz de vendas, cases de suscesso e proporcionar um ótima troca de experiências."
+    },
+    {
+        "name": "ac2", 
+        "pergunta": "Quando e onde será realizado?", 
+        "resposta": "O treinamento será realizado nos dias 23 e 24 de março de 2023 e será realizado incialmente no hotel Ibis Santa Felicidade em Curitiba, tendo no segundo dia a visitação a sede da SCI Pneus em Curitiba."
+    },
+    {
+        "name": "ac3", 
+        "pergunta": "Posso levar quantos acompanhantes?", 
+        "resposta": "Cada revenda pode levar até 2 participantes, em caso de dúvidas converse com seu agente de vendas."
+    },
+    {
+        "name": "ac4", 
+        "pergunta": "Qual o critério para validar minha inscrição?", 
+        "resposta": "O principal critério é o volume de compras no qual os clientes que não comprem há mais de 3 meses, não poderão participar. Após sua inscrição, nosso departamento de vendas fará a avaliação e lhe retornará por e-mail."
+    },
+    {
+        "name": "ac5", 
+        "pergunta": "Posso me inscrever por e-mail?", 
+        "resposta": "Não, desenvolvemos esta plataforma para melhor organização das inscrições. Em caso de dúvidas, fale com seu agente de vendas."
+    },
+    {
+        "name": "ac6", 
+        "pergunta": "Moro em outro estado. Ganharei a passagem até o local do treinamento?", 
+        "resposta": "Não, a SCI se compromete em custear as despesas do treinamento bem como hotel, alimentação e transporte até a SCI."
+    },
+    {
+        "name": "ac7", 
+        "pergunta": "Posso acompanhar o treinamento online?", 
+        "resposta": "Ainda não possuímos esta modalidade de treinamento, caso tenha interesse deixe sua opinião junto ao seu agente de vendas, o volume de pedidos poderá viabilizar essa modalidade no futuro."
+    }
+]

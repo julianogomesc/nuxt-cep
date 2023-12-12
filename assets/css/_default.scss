@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300;400;700;800&display=swap');
+
+@import '_colors.scss';
+
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+html, div, body, a, span, p, img, video{
+  transition: all 0.3s ease 0s;
+  font-family: 'Open Sans', sans-serif;
+}
+input{
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.4em;
+  font-size: 0.9em;
+  color: #000;
+  width: 100%;
+  margin-bottom: 1em;
+  &:focus{
+    color: $primary;
+    box-shadow: 0 0 1em #ccc;
+    outline-color: $primary !important;
+  }
+}
+label{
+  font-size: 0.8em;
+  color: #888;
+  font-weight: normal;
+}
+body{
+  background: $bg;
+}
+h1{
+  font-size: 1.4em;
+  color: $primary;
+  font-weight: lighter;
+  letter-spacing: -1px;
+}
+.subtitle{
+  font-weight: lighter;
+  color: #888;
+  font-size: 0.8em;
+}
+button{
+  background: $primary !important;
+  color: #FFF;
+}
+
+a, button, img, div, strong{
+  transition: all 0.3s ease 0s;
+}
+.no-radius{
+  border-radius: 0 !important;
+}
+.boxshadow{
+  box-shadow: 0 0 5px #ccc;
+}
+.centerY{
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  .item{
+    flex: 1;
+  }
+}
+.t20{
+  opacity: 20%;
+}
+
+.item {
+	flex: 1;
+	font-size: 1.5em;
+}
+.alinhamento-central {
+	align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.no-padding{
+    padding: 0 !important;
+}
+.no-margin{
+    margin: 0 !important;
+}

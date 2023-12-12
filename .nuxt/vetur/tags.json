@@ -1,0 +1,14 @@
+{
+  "Accordion": {
+    "description": "Auto imported from components/Accordion.vue"
+  },
+  "Faq": {
+    "description": "Auto imported from components/Faq.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Nav": {
+    "description": "Auto imported from components/Nav.vue"
+  }
+}
