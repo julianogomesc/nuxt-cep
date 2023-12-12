@@ -17,7 +17,6 @@ import nuxt_plugin_plugin_48eb3797 from 'nuxt_plugin_plugin_48eb3797' // Source:
 import nuxt_plugin_bootstrapvue_ac37cb2e from 'nuxt_plugin_bootstrapvue_ac37cb2e' // Source: .\\bootstrap-vue.js (mode: 'all')
 import nuxt_plugin_axios_4940163a from 'nuxt_plugin_axios_4940163a' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_vuethemask_0a766a32 from 'nuxt_plugin_vuethemask_0a766a32' // Source: ..\\plugins\\vue-the-mask.js (mode: 'all')
-import nuxt_plugin_filters_2dd71012 from 'nuxt_plugin_filters_2dd71012' // Source: ..\\plugins\\filters.js (mode: 'all')
 import nuxt_plugin_auth_56ea3894 from 'nuxt_plugin_auth_56ea3894' // Source: .\\auth.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -226,10 +225,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_vuethemask_0a766a32 === 'function') {
     await nuxt_plugin_vuethemask_0a766a32(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_filters_2dd71012 === 'function') {
-    await nuxt_plugin_filters_2dd71012(app.context, inject)
   }
 
   if (typeof nuxt_plugin_auth_56ea3894 === 'function') {

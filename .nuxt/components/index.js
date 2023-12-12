@@ -1,7 +1,4 @@
-export { default as Accordion } from '../..\\components\\Accordion.vue'
-export { default as Faq } from '../..\\components\\Faq.vue'
-export { default as Footer } from '../..\\components\\Footer.vue'
-export { default as Nav } from '../..\\components\\Nav.vue'
+
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

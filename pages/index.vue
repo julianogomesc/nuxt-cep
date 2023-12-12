@@ -15,7 +15,7 @@
             </b-col>
           </b-row>
           <b-overlay :show="load" rounded="sm">
-            <b-row class="mb-4" v-show="dados.endereco !== null">
+            <b-row class="mb-4">
               <b-col cols="12" md="8" lg="7">
                 <label for="endereco">Endereço:</label>
                 <input id="endereco" type="text" v-model="dados.endereco" :disabled="dados.endereco == null">
